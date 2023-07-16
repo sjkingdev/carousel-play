@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Test Carousel</h1>
+        <section class="carousel_wrapper">
+            <div class="row">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item w-50 active col-6">
+                    <img src="http://via.placeholder.com/640x360/f99/aaa" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item w-50 col-6">
+                    <img src="http://via.placeholder.com/640x360/256/aaa" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item w-50 col-6">
+                    <img src="http://via.placeholder.com/640x360/808/aaa" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+        </section>
+        <section class="og_carousel">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="http://via.placeholder.com/640x360/f99/aaa" class="w-100 d-block" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="http://via.placeholder.com/640x360/256/aaa" class="w-100 d-block" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="http://via.placeholder.com/640x360/f54/aaa" class="w-100 d-block" alt="Third slide">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="footer">
+            <ul>
+                <li>footer nav</li>
+                <li>footer nav</li>
+                <li>footer nav</li>
+            </ul>
+
+        </section>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <script src="./bootstrap.min.bundle.js"></script>
+</body>
+</html>
